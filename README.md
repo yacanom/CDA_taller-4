@@ -10,7 +10,7 @@ Repositorio para entrega taller 4 de Ciencia de Datos aplicada
 | David Polanía Mejía | d.polaniam | 202213328 |
 
 ## 1. Notebook de creación del Pipeline y experimentación
-El notebook con el desarrollo se encuentra en: [CDA_taller-4/Notebooks/CDA_Taller_4.ipynb] (https://github.com/yacanom/CDA_taller-4/blob/main/Notebooks/CDA_Taller_4.ipynb). 
+El notebook con el desarrollo se encuentra en: [CDA_taller-4/Notebooks/CDA_Taller_4.ipynb](https://github.com/yacanom/CDA_taller-4/blob/main/Notebooks/CDA_Taller_4.ipynb). 
 
 ## 2. Implementación de la API REST con los endpoints solicitados.
 
