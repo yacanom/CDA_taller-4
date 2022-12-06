@@ -2,8 +2,7 @@ from pydantic import BaseModel
 
 class DataModel(BaseModel):
  
-    customerID: str
-    gender:str
+    gender: str
     SeniorCitizen:int
     Partner: str
     Dependents: str

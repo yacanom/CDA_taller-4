@@ -4,8 +4,7 @@ from sklearn.preprocessing import PowerTransformer
 class PredictionModel:
 
     def __init__(self):
-        self.model = load("/RF.joblib")
-        self.pt = load("/pt.joblib")
+        self.model = load("../model/modelo.joblib")
 
     def make_predictions(self, data):
         result = self.model.predict(data)
