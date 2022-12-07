@@ -25,6 +25,7 @@ Deployment instructions:
 
     [
         {
+        "customerID": "7590-VHVEG",
         "gender":"Male",
         "SeniorCitizen":0,
         "Partner": "Yes",
@@ -47,3 +48,4 @@ Deployment instructions:
         }
     ]
 ## 3. Link del video subido a YouTube.
+        https://youtu.be/Q47GecT0rUw
