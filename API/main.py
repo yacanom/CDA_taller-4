@@ -84,6 +84,12 @@ def make_predictions(X: List[DataModel]):
     results = predicion_model.make_predictions(df)
     return results.tolist()
 
-@app.get("/version")
-def versions():
-    return {"message": "Version"}
+@app.post("/version")
+def versions(X: List[DataModel], version: int):
+    df = pd.DataFrame([x.dict() for x in X])
+    predicion_model = PredictionModel()
+    if version == 1:
+        results = predicion_model.make_predictions(df)
+    elif version == 2:
+        results = predicion_model.make_predictions2(df)
+    return results.tolist()
